@@ -26,7 +26,7 @@ jobs:
       - name: Descomprimir proyecto
         run: |
           mkdir -p proyecto
-          unzip -o Conviene_0.8.6_CORREGIDO_GitHub.zip -d proyecto
+          unzip -o Conviene_0.8.7_CORREGIDO_GitHub.zip -d proyecto
 
       - name: Compilar APK
         working-directory: proyecto/RentableZone
