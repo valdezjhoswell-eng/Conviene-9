@@ -33,7 +33,7 @@ jobs:
         run: |
           rm -rf proyecto
           mkdir -p proyecto
-          unzip -o RentableZone_A11_v0.4.1_ACTUALIZACION_OFERTA.zip -d proyecto
+          unzip -o RentableZone_A11_v0.4.3_ACTUALIZACION_OFERTA.zip -d proyecto
 
       - name: Verificar estructura
         run: |
